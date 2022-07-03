@@ -8,6 +8,22 @@ body {
     box-sizing: border-box;
 }
 
+.navconta-carteiralist {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navconta-carteiralist li {
+    padding: 30px;
+}
+
+.hr1 {
+    border: 0;
+    border-top: 1px solid rgb(217, 215, 215);
+    margin-bottom: 15px;
+  }
+
 h1 a {
     color: black;
     font-size: 20px;
@@ -20,7 +36,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 8vh;
+    height: 5vh;
 }
 
 .nav-list {
@@ -30,12 +46,50 @@ nav {
 
 .nav-list li {
     font-size: 18px;
-    margin-left: 1px;
 }
 
 .nav-list li a {
     color: black;
     display: inline-block;
-    padding: 28px;
+    padding: 25px;
     text-decoration: none;
 }
+
+#divBusca {
+    background-color:white;
+    border: solid 1px;
+    margin-top: 5px;
+}
+
+#btnBusca {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 7%;
+}
+
+#txtBusca {
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+    font-size: 16px;
+    height: 4vh;
+    width: 200px;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+
+.main-offer {
+    color: rgba(255, 255, 255, 0.849);
+    font-weight: bold;
+    text-align: center;
+    height: 6vh;
+    background-color: black;
+    margin-top: 20px;
+    padding-top: 17px;
+}
+
+    
+
