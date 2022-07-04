@@ -8,14 +8,24 @@ body {
     box-sizing: border-box;
 }
 
-.navconta-carteiralist {
-    list-style: none;
+.container {
+    width: 350px;
+    margin-left: auto;
+    margin-right: 175px;
     display: flex;
-    justify-content: center;
 }
 
-.navconta-carteiralist li {
-    padding: 30px;
+.conta {
+    padding: 20px;
+    
+}
+
+.carteira {
+    padding: 20px;
+}
+
+.carrinho {
+    padding: 20px;
 }
 
 .hr1 {
@@ -29,6 +39,7 @@ h1 a {
     font-size: 20px;
     letter-spacing: 1px;
     margin-left: 100px;
+    margin-right: auto;
     text-decoration: none;
 }
 
@@ -50,32 +61,36 @@ nav {
 
 .nav-list li a {
     color: black;
-    display: inline-block;
-    padding: 25px;
+    display: flex;
+    padding: 20px;
     text-decoration: none;
 }
 
 #divBusca {
     background-color:white;
     border: solid 1px;
-    margin-top: 5px;
-}
-
-#btnBusca {
-    float: left;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 7%;
+    width: 330px;
+    height: 32px;
+    margin-right: 185px;
 }
 
 #txtBusca {
-    background-color: transparent;
-    border: none;
-    margin-left: 15px;
-    font-size: 16px;
-    height: 4vh;
-    width: 200px;
+    float:left;
+    background-color:transparent;
+    padding-left:7px;
+    font-size:16px;
+    border:none;
+    height:28px;
+    width:190px;
 }
+
+#divBusca img {
+    float: left;
+    width: 7%;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+
 
 textarea:focus, input:focus, select:focus {
     outline: 0;
@@ -87,9 +102,8 @@ textarea:focus, input:focus, select:focus {
     text-align: center;
     height: 6vh;
     background-color: black;
-    margin-top: 20px;
-    padding-top: 17px;
+    padding-top: 16px;
+    margin-top: 16px;
+    margin-bottom: 64px;
 }
-
-    
 
