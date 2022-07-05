@@ -17,11 +17,20 @@ body {
 
 .conta {
     padding: 20px;
-    
+}
+
+.conta p {
+    display: inline;
+    font-weight: 500;
 }
 
 .carteira {
     padding: 20px;
+}
+
+.carteira p {
+    display: inline-flex;
+    font-weight: 500;
 }
 
 .carrinho {
@@ -38,7 +47,7 @@ h1 a {
     color: black;
     font-size: 20px;
     letter-spacing: 1px;
-    margin-left: 100px;
+    margin-left: 290px;
     margin-right: auto;
     text-decoration: none;
 }
@@ -62,7 +71,7 @@ nav {
 .nav-list li a {
     color: black;
     display: flex;
-    padding: 20px;
+    padding: 30px;
     text-decoration: none;
 }
 
@@ -107,3 +116,46 @@ textarea:focus, input:focus, select:focus {
     margin-bottom: 64px;
 }
 
+.cartao {
+    width: 25%;
+    padding-left: 290px;
+}
+.container-2 {
+    margin-top: 64px;
+    margin-left: 0;
+    margin-right: 290px;
+    display: inline;
+    justify-content: space-around;
+    padding-left: 290px;
+    width: 15px;
+}
+
+.cartao {
+    width: 35%;
+}
+
+.listagiftfrete {
+    display: inline-flex;
+    align-items: center;
+    height: 40vh;
+}
+
+.listagiftfrete li {
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hr3 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+   
+main h1 {
+    font-size: 18px;
+    padding: 80px;
+}
