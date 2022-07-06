@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 350px;
+    width: 320px;
     margin-left: auto;
     margin-right: 175px;
     display: flex;
@@ -39,24 +39,25 @@ body {
 
 .hr1 {
     border: 0;
-    border-top: 1px solid rgb(217, 215, 215);
+    border-top: 2px solid rgb(217, 215, 215);
     margin-bottom: 15px;
   }
 
-h1 a {
+.nome-site {
     color: black;
     font-size: 20px;
+    font-weight: bold;
     letter-spacing: 1px;
-    margin-left: 290px;
-    margin-right: auto;
     text-decoration: none;
+    padding-left: 100px;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 5vh;
+    background-color: white;
+    height: 8vh /*viewport height: unidade responsiva que se adapta a altura da janela de visualizção*/
 }
 
 .nav-list {
@@ -70,36 +71,39 @@ nav {
 
 .nav-list li a {
     color: black;
-    display: flex;
-    padding: 30px;
+    display: block;
+    padding: 50px;
     text-decoration: none;
+    transition: background .6s;
+}
+
+.nav-list a:hover {
+    font-size: 19px;
+    font-weight: 500;
 }
 
 #divBusca {
     background-color:white;
     border: solid 1px;
-    width: 330px;
-    height: 32px;
+    width: 220px;
+    height: 45px;
     margin-right: 185px;
+    margin-left: auto;
+}
+#divBusca img {
+    width: 11.5%;
+    padding-left: 7px;
+    margin-top: 9px;
 }
 
 #txtBusca {
-    float:left;
+    padding-left: 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     background-color:transparent;
-    padding-left:7px;
     font-size:16px;
     border:none;
-    height:28px;
-    width:190px;
 }
-
-#divBusca img {
-    float: left;
-    width: 7%;
-    padding-left: 7px;
-    padding-top: 7px;
-}
-
 
 textarea:focus, input:focus, select:focus {
     outline: 0;
@@ -107,8 +111,8 @@ textarea:focus, input:focus, select:focus {
 
 .main-offer {
     color: rgba(255, 255, 255, 0.849);
-    font-weight: bold;
     text-align: center;
+    font-weight: 500;
     height: 6vh;
     background-color: black;
     padding-top: 16px;
@@ -116,46 +120,107 @@ textarea:focus, input:focus, select:focus {
     margin-bottom: 64px;
 }
 
-.cartao {
-    width: 25%;
-    padding-left: 290px;
-}
 .container-2 {
     margin-top: 64px;
-    margin-left: 0;
-    margin-right: 290px;
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    padding-left: 290px;
-    width: 15px;
-}
+    width: fit-content;
+  }
 
 .cartao {
-    width: 35%;
+    width: 80%;
+    margin-top: 15px;
 }
 
-.listagiftfrete {
-    display: inline-flex;
-    align-items: center;
-    height: 40vh;
-}
-
-.listagiftfrete li {
-    font-size: 18px;
+.item-1 {
+    width: 30%;
     font-weight: 600;
-    display: inline-flex;
-    width: 500px;
-    justify-content: space-around;
-    align-items: center;
+}
+
+.item-2 {
+    width: 30%;
+    font-weight: 600;
+}
+
+.item-2-text {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.item-3 {
+    width: 30%;
+    font-weight: 600;
+}
+
+.item-3-text {
+    font-size: 14px;
+    font-weight: lighter;
 }
 
 .hr3 {
+    margin-top: 64px;
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, transparent, #CCC, transparent);  
 }
    
 main h1 {
+    display: flex;
     font-size: 18px;
     padding: 80px;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 999px;
+}
+
+.gabinete {
+    width: 30%;
+}
+
+.item-gabinete {
+    width: 20%;
+    font-weight: 600;
+}
+
+.processadores {
+    width: 57%;
+}
+
+.item-processadores {
+    width: 20%;
+    font-weight: 600;
+}
+
+.coolers {
+    width: 47%;
+}
+
+.item-cooling {
+    width: 20%;
+    font-weight: 600;
+}
+
+.ssd {
+    width: 44%;
+}
+
+.item-ssd {
+    width: 20%;
+    font-weight: 600;
+}
+
+.placadevideo {
+    width: 75%;
+}
+
+.item-placadevideo {
+    width: 20%;
+    font-weight: 600;
 }
