@@ -131,7 +131,7 @@ textarea:focus, input:focus, select:focus {
 
 .cartao {
     width: 80%;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .item-1 {
@@ -149,6 +149,13 @@ textarea:focus, input:focus, select:focus {
     font-weight: lighter;
 }
 
+.shop-egift {
+    font-size: 12px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+
 .item-3 {
     width: 30%;
     font-weight: 600;
@@ -157,6 +164,13 @@ textarea:focus, input:focus, select:focus {
 .item-3-text {
     font-size: 14px;
     font-weight: lighter;
+}
+
+.termos-condicoes {
+    font-size: 12px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    margin-top: 25px;
 }
 
 .hr3 {
@@ -168,8 +182,22 @@ textarea:focus, input:focus, select:focus {
    
 main h1 {
     display: flex;
-    font-size: 18px;
-    padding: 80px;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 4%;
+}
+
+.categorias {
+    font-size: 12px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 5%;
 }
 
 .container-3 {
@@ -177,50 +205,130 @@ main h1 {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    width: 999px;
+    align-items: center;
+    width: fit-content;
+    margin-left: 9%;
 }
 
 .gabinete {
-    width: 30%;
+    width: 20%;
 }
 
-.item-gabinete {
-    width: 20%;
-    font-weight: 600;
+.gabinete-img {
+    width: 40%;
 }
 
 .processadores {
-    width: 57%;
+    width: 20%;
 }
 
-.item-processadores {
-    width: 20%;
-    font-weight: 600;
+.processadores-img {
+    width: 40%;
 }
 
 .coolers {
-    width: 47%;
+    width: 20%;
 }
 
-.item-cooling {
-    width: 20%;
-    font-weight: 600;
+.coolers-img {
+    width: 40%;
 }
 
 .ssd {
-    width: 44%;
+    width: 20%;
 }
 
-.item-ssd {
-    width: 20%;
-    font-weight: 600;
+.ssd-img {
+    width: 40%;
 }
 
 .placadevideo {
-    width: 75%;
+    width: 20%;
 }
 
-.item-placadevideo {
+.placadevideo-img {
+    width: 45%;
+}
+
+.lista-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lista-1 li {
+    font-weight: bold;
+    list-style: none;
+    width: fit-content;
+    margin-top: 25px;
+    margin-left: 4%;
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: fit-content;
+    margin-top: 75px;
+    margin-left: 9%;
+}
+
+.placamae {
     width: 20%;
-    font-weight: 600;
+}
+
+.placamae-img {
+    width: 40%;
+}
+
+.memoriaram {
+    width: 20%;
+}
+
+.memoriaram-img {
+    width: 40%;
+}
+
+.fontes {
+    width: 20%;
+}
+
+.fontes-img {
+    width: 40%;
+}
+
+.monitores {
+    width: 20%;
+}
+
+.monitores-img {
+    width: 40%;
+}
+
+.cabos {
+    width: 20%;
+}
+
+.cabos-img {
+    width: 40%;
+}
+
+.lista-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lista-2 li {
+    font-weight: bold;
+    list-style: none;
+    width: fit-content;
+    margin-top: 25px;
+    margin-left: 4%;
 }
