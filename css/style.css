@@ -11,7 +11,7 @@ body {
 .container {
     width: 320px;
     margin-left: auto;
-    margin-right: 175px;
+    margin-right: 50px;
     display: flex;
 }
 
@@ -22,6 +22,7 @@ body {
 .conta p {
     display: inline;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .carteira {
@@ -31,10 +32,12 @@ body {
 .carteira p {
     display: inline-flex;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .carrinho {
     padding: 20px;
+    cursor: pointer;
 }
 
 .hr1 {
@@ -43,71 +46,73 @@ body {
     margin-bottom: 15px;
   }
 
-.nome-site {
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-decoration: none;
-    padding-left: 100px;
-}
-
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    height: 8vh /*viewport height: unidade responsiva que se adapta a altura da janela de visualizção*/
+    padding: 10px 40px 10px 70px;
+    border-left: none;
+    border-right: none;
 }
 
-.nav-list {
+nav ul {
+    display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li.logo {
+    flex: 1;
+    font-size: 30px;
+    font-weight: 700;
+    list-style: none;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul div.items {
+    padding: 0 25px;
+    display: inline-flex;
+    flex: auto;
+}
+
+nav ul div.items a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 15px;
+    color: black;
+}
+
+nav ul .search-icon {
+    height: 40px;
+    width: 320px;
     display: flex;
 }
 
-.nav-list li {
-    font-size: 18px;
+nav ul .search-icon input {
+    height: 100%;
+    width: 200px;
+    border: 1px solid rgb(211, 211, 211);
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
 }
 
-.nav-list li a {
-    color: black;
-    display: block;
-    padding: 50px;
-    text-decoration: none;
-    transition: background .6s;
+nav ul .search-icon .icon {
+    height: 100%;
+    width: 40px; 
+    line-height: 40px;
+    text-align: center;
 }
 
-.nav-list a:hover {
-    font-size: 19px;
-    font-weight: 500;
+.icone {
+    width: 13%;
+    cursor: pointer;
+    margin-left: -35px;
 }
 
-#divBusca {
-    background-color:white;
-    border: solid 1px;
-    width: 220px;
-    height: 45px;
-    margin-right: 185px;
-    margin-left: auto;
-}
-#divBusca img {
-    width: 11.5%;
-    padding-left: 7px;
-    margin-top: 9px;
-}
-
-#txtBusca {
-    padding-left: 7px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    background-color:transparent;
-    font-size:16px;
-    border:none;
-}
-
-textarea:focus, input:focus, select:focus {
-    outline: 0;
-}
 
 .main-offer {
     color: rgba(255, 255, 255, 0.849);
@@ -132,6 +137,7 @@ textarea:focus, input:focus, select:focus {
 .cartao {
     width: 80%;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .item-1 {
@@ -154,6 +160,7 @@ textarea:focus, input:focus, select:focus {
     text-decoration: underline;
     letter-spacing: 1px;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 .item-3 {
@@ -171,6 +178,7 @@ textarea:focus, input:focus, select:focus {
     text-decoration: underline;
     letter-spacing: 1px;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 .hr3 {
@@ -198,6 +206,7 @@ h1 {
     justify-content: flex-end;
     align-items: flex-end;
     margin-right: 5%;
+    cursor: pointer;
 }
 
 .container-3 {
@@ -216,6 +225,7 @@ h1 {
 
 .gabinete-img {
     width: 40%;
+    cursor: pointer;
 }
 
 .processadores {
@@ -224,6 +234,7 @@ h1 {
 
 .processadores-img {
     width: 40%;
+    cursor: pointer;
 }
 
 .coolers {
@@ -232,6 +243,7 @@ h1 {
 
 .coolers-img {
     width: 40%;
+    cursor: pointer;
 }
 
 .ssd {
@@ -240,6 +252,7 @@ h1 {
 
 .ssd-img {
     width: 40%;
+    cursor: pointer;
 }
 
 .placadevideo {
@@ -248,6 +261,7 @@ h1 {
 
 .placadevideo-img {
     width: 45%;
+    cursor: pointer;
 }
 
 .lista-1 {
@@ -264,6 +278,7 @@ h1 {
     width: fit-content;
     margin-top: 25px;
     margin-left: 4%;
+    cursor: pointer;
 }
 
 .container-4 {
@@ -283,6 +298,7 @@ h1 {
 
 .placamae-img {
     width: 40%;
+    cursor: pointer;
 }
 
 .memoriaram {
@@ -291,6 +307,7 @@ h1 {
 
 .memoriaram-img {
     width: 40%;
+    cursor: pointer;
 }
 
 .fontes {
@@ -299,6 +316,7 @@ h1 {
 
 .fontes-img {
     width: 40%;
+    cursor: pointer;
 }
 
 .monitores {
@@ -307,6 +325,7 @@ h1 {
 
 .monitores-img {
     width: 40%;
+    cursor: pointer;
 }
 
 .cabos {
@@ -315,6 +334,7 @@ h1 {
 
 .cabos-img {
     width: 40%;
+    cursor: pointer;
 }
 
 .lista-2 {
@@ -332,6 +352,7 @@ h1 {
     margin-top: 80px;
     margin-left: 4%;
     margin-bottom: 80px;
+    cursor: pointer;
 }
 
 h4 {
@@ -376,6 +397,7 @@ h4 {
 
 .headset-headphone-img {
     width: 30%;
+    cursor: pointer;
 }
 
 .teclado {
@@ -384,6 +406,7 @@ h4 {
 
 .teclado-img {
     width: 40%;
+    cursor: pointer;
 }
 
 .mouse {
@@ -394,6 +417,7 @@ h4 {
 .mouse-img {
     width: 24%;
     margin-left: -10%;
+    cursor: pointer;
 }
 
 .lista-produtos-destaque {
@@ -410,6 +434,7 @@ h4 {
     width: 100%;
     margin-top: 25px;
     margin-left: 4%;
+    cursor: pointer;
 }
 
 .lista-produtos-destaque-2 {
@@ -424,7 +449,7 @@ h4 {
     font-weight: bold;
     list-style: none;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: 4%;
 }
 
@@ -433,6 +458,7 @@ h4 {
     letter-spacing: 1px;
     text-decoration: wavy;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .teclados-text {
@@ -440,6 +466,7 @@ h4 {
     letter-spacing: 1px;
     text-decoration: wavy;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .mouses-text {
@@ -447,6 +474,7 @@ h4 {
     letter-spacing: 1px;
     text-decoration: wavy;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .detalhes-ofertas {
@@ -505,6 +533,7 @@ h4 {
     width: 300px;
     border: 1px solid rgb(211, 211, 211);
     padding: 12px;
+    outline: 0;
 }
 
 #sign-up {
@@ -572,14 +601,11 @@ footer {
 }
 
 h1 {
-    display: flex;
-    flex-flow: row wrap;
-    font-size: 20px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    padding-top: 80px;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex: 1;
+    font-size: 30px;
+    font-weight: 700;
+    list-style: none;
+    padding-top: 60px;
 }
 
 .hts-footer {
@@ -676,4 +702,12 @@ h1 {
 .peças-cabos-adaptadores a {
     color: rgba(211, 211, 211, 0.879);
     text-decoration: none;
+}
+
+.hr3-footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);  
 }

@@ -12,16 +12,16 @@
 </head>
     <body>
         <header>
-            <main class="container">
+            <div class="container">
                 <div class="conta"><img src="account.png"> <p>Conta</p></div>
                 <div class="carteira"><img src="wallet.png"> <p>R$ 0.00</p></div>
                 <div class="carrinho"><img src="cart.png"></div>
-            </main>
-            
+            </div>
                 <hr class="hr1">
                     <nav>
-                        <a href="index.html" class="nome-site">HardTech Store.</a>
-                            <ul class="nav-list">
+                        <ul class="nav-list">
+                            <li class="logo"><a href="index.html">HardTech Store.</a></li>
+                            <div class="items">
                                 <li><a href="#">Hardware</a></li>
                                 <li><a href="#">Periféricos</a></li>
                                 <li><a href="#">Áudio</a></li>
@@ -29,11 +29,12 @@
                                 <li><a href="#">Audiovisual</a></li>
                                 <li><a href="#">Escritório</a></li>
                                 <li><a href="#">Acessórios</a></li>
-                            </ul>
-                            <div id="divBusca">
-                                <img src="search3.png" alt="buscar"/>
-                                <input type="text" id="txtBusca" placeholder="buscar"/>
                             </div>
+                            <li class="search-icon">
+                                <input type="search" placeholder="buscar">
+                                <img class="icone" src="search3.png">
+                            </li>    
+                        </ul>
                     </nav>
                         <p class="main-offer">FRETE GRÁTIS PARA COMPRAS ACIMA DE R$50,00 - POR TEMPO LIMITADO</p>
         </header>
@@ -222,6 +223,7 @@
                 </ul>
             </div>
         </div>
+        <hr class="hr3-footer">
 </footer>
 
     
