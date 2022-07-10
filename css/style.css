@@ -741,6 +741,7 @@ h1 {
     margin-right: 2em;
     margin-bottom: 1em;
    }
+
    .galleryautoplayitems-5, .item {
     display: none;
     margin-bottom: 10px;
@@ -750,6 +751,7 @@ h1 {
     margin-right: 2em;
    }
 
+
    .icone {
     width: 17%;
    }
@@ -758,37 +760,44 @@ h1 {
     width: 100%;
     padding: 5px;
    }
+
    .container-2 {
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
    }
+
    .item-1, .cartao {
     width: 80%;
     margin-left: 2.2em;
     margin-bottom: 0.5em;
    }
+
    .item-2, .item-3 {
     width: 80%;
     margin-bottom: 2.1em;
    }
+
    h1 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
    }
+
    .categorias {
     margin-top: 5em;
     margin-right: 3em;
     display: flex;
    }
+
    .container-3, .gabinete, .processadores, .coolers, .ssd, .placadevideo {
     display: grid;
     width: 90%;
     margin-right: 5em;
     padding: 22px;
    }
+
 
    .processadores {
     position: relative;
@@ -818,6 +827,7 @@ h1 {
     line-height: 150px;
     margin-left: 7em;
    }
+
    .container-4, .placamae, .memoriaram, .fontes, .monitores, .cabos {
     display: grid;
     width: 90%;
@@ -826,31 +836,38 @@ h1 {
     position: relative;
     bottom: 320px;
    }
+
    .lista-2 {
     display: grid;
     bottom: 1100px;
     position: relative;
    }
+
    .placamae {
     position: relative;
     top: -220px;
    }
+
    .memoriaram {
     position: relative;
     top: -160px;
    }
+
    .fontes {
     position: relative;
     top: -70px;
    }
+
    .monitores {
     position: relative;
     top: 0px;
    }
+
    .cabos {
     position: relative;
     top: 45px;
    }
+
    .hr3 {
     position: relative;
    }
@@ -858,18 +875,22 @@ h1 {
     position: relative;
     margin-left: 8px;
    }
+
    .email-box, #email {
     display: grid;
     position: relative;
     width: 100%;
    }
+
    #sign-up {
    margin-top: 10px;
    }
+
    .lista-semifinal {
     display: grid;
     margin-right: 8em;
    }
+
    .lista-final {
     display: grid;
     position: relative;
@@ -877,19 +898,23 @@ h1 {
     bottom: 340px;
     margin-right: 2em;
    }
+
    .hts-footer {
     margin-top: 10px;
     width: 99%;
     display: flex;
     margin-left: 2.6em;
    }
+
    .linha {
     display: grid;
     margin-right: 25em;
    }
+
    .coluna-20 {
     padding: 25px;
    }
+   
    html, body, main {
     overflow-x: hidden;
    }
