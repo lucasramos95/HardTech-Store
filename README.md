@@ -39,4 +39,4 @@ Status do projeto: Finalizado, porém, aberto a alterações no futuro.
 
 **Blog TreinaWeb:** Flexbox e Grid.<br>
 **Dribbble:** Inspiração de Layout/Design.<br>
-**Web Gradients:** Cores de backround.
+**Web Gradients:** Cores de background.
